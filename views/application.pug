@@ -1,0 +1,18 @@
+html
+  head
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous")
+    link(rel="stylesheet" href="/css/application.css")
+  body
+    nav(class="navbar navbar-light bg-faded")
+      a(class="navbar-brand" href="/") User Information Application
+      button(type="button" class="btn btn-success jl-like-button") Like this app
+      ul.nav.navbar-nav.float-xs-right
+        li.nav-item
+          a(class="navbar-text" href="/add-user") NEW USER
+        li.nav-item
+          a(class="navbar-text" href="/search") SEARCH
+
+    block content
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="/js/application.js")

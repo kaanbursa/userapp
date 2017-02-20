@@ -1,0 +1,20 @@
+extends ../application
+
+block content
+  .container
+      .row
+        .col-xs-6.col-xs-offset-3
+          h1 Add a user below:
+
+          form(action="/add-user" method="POST")
+            .form-group
+              label(for="firstname") Full Name
+              input(name="firstname" type="text" id="firstname" class="form-control" placeholder="Joanna")
+            .form-group
+              label(for="lastname") Full Name
+              input(name="lastname" type="text" id="lastname" class="form-control" placeholder="Newton")
+            .form-group
+              label(for="email") Email address
+              input(name="email" type="email" id="email" class="form-control" placeholder="joannanewton@yahoo.com")
+
+            button(class="btn btn-success btn-lg btn-block") Submit

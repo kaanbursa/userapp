@@ -1,0 +1,9 @@
+extends ./application.pug
+block content
+  .container
+    h1 All Users
+    hr
+    each user in users
+      .card.card-block
+        h4(class="card-title")= user.firstname + " " + user.lastname
+        p(class="card-text")= "Email: " + user.email

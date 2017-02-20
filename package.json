@@ -1,0 +1,25 @@
+{
+  "name": "nycda-users-app",
+  "version": "1.0.0",
+  "description": "Create a Node.js application that is the beginning of a user management system. Your users are all saved in a \"users.json\" file, and you can currently do the following: - search for users - add new new users to your users file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izelnakri/nycda-users-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izelnakri/nycda-users-app/issues"
+  },
+  "homepage": "https://github.com/izelnakri/nycda-users-app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
